@@ -41,6 +41,10 @@ apis:
       - type: x-api-endpoint
         url: https://open.nrw/api/3/action/status_show
 common:
+  - type: VulnerabilityDisclosure
+    url: security/open-nrw-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/open-nrw-domain-security.yml
   - type: Website
     url: https://open.nrw
   - type: Documentation
